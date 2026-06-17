@@ -1,6 +1,7 @@
 #include "PlayScene.h"
 #include "Ground.h"
 #include "Tank.h"
+#include "TackHead.h"
 
 PlayScene::PlayScene(GameObject* parent)
 	: GameObject(parent, "PlayScene")
@@ -10,7 +11,8 @@ PlayScene::PlayScene(GameObject* parent)
 void PlayScene::Initialize()
 {
 	Instantiate<Ground>(this);//親をplaysceneにして地面を生成
-	Instantiate<Tank>(this);//親をplaysceneにして地面を生成
+	Instantiate<Tank>(this);
+	Instantiate<TackHead>(this);
 
 }
 
