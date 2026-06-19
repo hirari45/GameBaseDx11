@@ -24,6 +24,9 @@
       <UniqueIdentifier>{47a6a3f5-8cfd-436b-8d58-beccd108f3f3}</UniqueIdentifier>
       <Extensions>hlsl</Extensions>
     </Filter>
+    <Filter Include="Scne">
+      <UniqueIdentifier>{ca347682-2ba8-4ba8-95c1-1f12c77e70e8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Engine\BoxCollider.cpp">
@@ -99,7 +102,9 @@
     <ClCompile Include="PlayScene.cpp" />
     <ClCompile Include="Ground.cpp" />
     <ClCompile Include="Tank.cpp" />
-    <ClCompile Include="TackHead.cpp" />
+    <ClCompile Include="TankHead.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="Enemy.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine\BoxCollider.h">
@@ -175,7 +180,9 @@
     <ClInclude Include="PlayScene.h" />
     <ClInclude Include="Ground.h" />
     <ClInclude Include="Tank.h" />
-    <ClInclude Include="TackHead.h" />
+    <ClInclude Include="TankHead.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="Enemy.h" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="Assets\Shader\Simple2D.hlsl">
